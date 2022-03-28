@@ -11,7 +11,6 @@
   inputs.src-denim_ui_cairo-master.ref   = "refs/heads/master";
   inputs.src-denim_ui_cairo-master.owner = "nortero-code";
   inputs.src-denim_ui_cairo-master.repo  = "midio-ui-cairo";
-  inputs.src-denim_ui_cairo-master.dir   = "";
   inputs.src-denim_ui_cairo-master.type  = "github";
   
   inputs."denim_ui".owner = "nim-nix-pkgs";
