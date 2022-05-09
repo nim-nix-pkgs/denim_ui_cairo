@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/nortero-code/midio-ui-cairo",
   "refs": [
-    "fatal: unable to access 'https://github.com/nortero-code/midio-ui-cairo/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/nortero-code/midio-ui-cairo/': Could not resolve host: github.com",
     ""
   ],
   "heads": []
