@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."denim_ui_cairo-master".dir   = "master";
+  inputs."denim_ui_cairo-master".owner = "nim-nix-pkgs";
+  inputs."denim_ui_cairo-master".ref   = "master";
+  inputs."denim_ui_cairo-master".repo  = "denim_ui_cairo";
+  inputs."denim_ui_cairo-master".type  = "github";
+  inputs."denim_ui_cairo-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."denim_ui_cairo-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
