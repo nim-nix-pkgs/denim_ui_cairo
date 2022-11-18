@@ -76,11 +76,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667335843,
-        "narHash": "sha256-VuTyVYqmyQ7BVpNCPW66nGvQEOUpVoHWVEV8xmF/lqw=",
+        "lastModified": 1668750668,
+        "narHash": "sha256-ilU+yFNpjPVDJbETLWQfwkzd59saIuJmivHXRPyJNfM=",
         "owner": "nim-nix-pkgs",
         "repo": "denim_ui_cairo",
-        "rev": "62054256562cd5842ccc34ea2a6e8d5c859fb2e2",
+        "rev": "89c50079fbdf5e893ec0d41bfe1da184456580c4",
         "type": "github"
       },
       "original": {
